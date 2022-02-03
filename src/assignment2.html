@@ -67,7 +67,10 @@
   color: green;
     font-family:monospace;
 }
-
+#orange-text{   /*Override Class Declarations by Styling ID Attributes
+*/
+    color:orange;
+  }
 .pink-text{
     color:pink;
 }
@@ -75,7 +78,7 @@
     color:blue;
   }  
 </style>
-<h1 class="pink-text">Hello World</h1>
+<h1 id="orange-text" class="pink-text">Hello World</h1>
 <h2 class="red-text">CatPhotoApp</h2>
 <main>
   <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
